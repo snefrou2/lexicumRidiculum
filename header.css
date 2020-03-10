@@ -1,0 +1,37 @@
+
+body{
+    
+}
+
+
+nav ul{
+display:flex;
+      
+}
+
+ul li {
+    list-style-type: none;
+    width: 15%;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.submenu{
+    padding: 0vw;
+    display: block;
+    
+}
+
+
+
