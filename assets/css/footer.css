@@ -11,15 +11,14 @@ footer{
     display: flex;
     justify-content:;
     align-items: center;
+    padding: 0;
 }
 
 
-.logo{
+.logo_footer{
     color: red;
     font-size: xx-large;    
 }
-
-
 
 li{
     list-style-type: none;
@@ -35,12 +34,13 @@ a:hover{
     color: cornflowerblue;
 }
 
-.center{
+.center_footer{
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
-ul :nth-child(4) {
+.git{
     flex-grow: 2;
 }
 ul :nth-child(5) {
