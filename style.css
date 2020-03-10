@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+​
+/*enleve les puces des li*/
+li{
+    list-style-type: none;
+}
+/*apparaitre image du bandeau*/
+.bandeau{
+    background-image: url(https://static.cnews.fr/sites/default/files/styles/image_640_360/public/code_matrix_0.jpg?itok=rjwgCH3r);
+    width: 100%;
+    height: 7.3vw;
+}
+/* aligne, et éloigne la blague et le "connexion"*/
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tailleBandeau{
+    height: 7.3vw;
+    width: 99.5%;
+}
+/*colorer la blague du jour et la positionner*/
+.joke{
+    color: blanchedalmond;
+    width: 30vw;
+    padding-left: 10%;
+    font-weight: bold;
+}
+/*dimenssionne le bouton*/
+.buttonA{
+    border-radius: 5%;
+    width: 100%;
+    height: 5vw;
+    font-size: 90%;
+    color: crimson;
+    background-color: darkgrey;
+    font-weight: bold;
+    box-shadow: 2px 3px 2px 3px darkslategray;
+    cursor: pointer; 
+}  
+/*aligner les éléments de la box infos*/
+span{
+    font-weight: bold;
+}
+.infos li{
+    border: darkviolet 2px solid;
+}
+.infos li :nth-child(1){
+    flex-grow: 5;
+    background-color: firebrick;
+}
+.infos li :nth-child(2){
+    flex-grow: 1;
+    background-color: blue;
+}
+.infos li :nth-child(3){
+    flex-grow: 1;
+    background-color: chartreuse;
+}
+
+/*/////////////////
+///    Sidebar   //
+/////////////////*/
+
+:root {
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    transition: 200ms ease;
+    border: 2px inset lightgray;
+    opacity: 100%;
+    background: white;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav-link svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.navbar:hover .link-text{
+    display: block;
+}
+
+.fa-html5 {
+    color: orange;
+}
+
+.fa-css3 {
+    color: blue;
+}
+
+.fa-js {
+    color: #f0dc4e;
+}
+
+.fa-vuejs {
+    color: gray;
+}
+
+.nav-item p {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
