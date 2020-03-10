@@ -3,18 +3,23 @@ body{
 }
 
 footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    align-items: center;
+    background-color:black;
     margin: 0;
+
 }
+.flex{
+    display: flex;
+    justify-content:;
+    align-items: center;
+}
+
 
 .logo{
     color: red;
-    align-self: flex-start;
-    font-size: xx-large;
+    font-size: xx-large;    
 }
+
+
 
 li{
     list-style-type: none;
@@ -29,4 +34,21 @@ a{
 a:hover{
     color: cornflowerblue;
 }
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+ul :nth-child(4) {
+    flex-grow: 2;
+}
+ul :nth-child(5) {
+    flex-grow: 3;
+}
+
+
+
+
+
 
