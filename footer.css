@@ -5,27 +5,26 @@ body{
 footer{
     background-color:black;
     margin: 0;
-
 }
+
 .flex{
     display: flex;
-    justify-content:;
     align-items: center;
     padding: 0;
 }
 
-
 .logo_footer{
     color: red;
-    font-size: xx-large;    
+    font-size: xx-large; 
+    list-style-type: none;   
 }
 
-li{
+.li_footer{
     list-style-type: none;
     padding: 10px;
 }
 
-a{
+.a_footer{
     text-decoration: none;
     color: white;
 }
@@ -37,12 +36,12 @@ a:hover{
 .center_footer{
     align-items: center;
     justify-content: space-around;
-
 }
 
 .git{
     flex-grow: 2;
 }
+
 ul :nth-child(5) {
     flex-grow: 3;
 }
