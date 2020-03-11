@@ -17,12 +17,18 @@ footer{
 
 .li_footer{
     list-style-type: none;
-    padding: 10px;
 }
 
 .a_footer{
     text-decoration: none;
     color: white;
+    padding: 0.5vw;
+}
+.favicon {
+    padding-left: 5vw;
+}
+.twitter {
+    padding-right: 2vw;
 }
 
 a:hover{
