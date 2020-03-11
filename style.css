@@ -9,14 +9,14 @@ main .flexbox{
     align-items: center;
 }
 main .tailleBandeau{
-   background-color: #132acb;
+   background:url(assets/images/codeBandeau.jpg);
     height: 7.3vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/*colorer la blague du jour et la positionner*/
+
 .joke{
     color: blanchedalmond;
     width: 30vw;
