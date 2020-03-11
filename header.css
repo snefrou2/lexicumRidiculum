@@ -6,12 +6,12 @@ body{
 
 nav ul{
 display:flex;
-      
+text-align: center;
 }
 
 header ul li {
     list-style-type: none;
-    width: 15%;
+    
 }
 
 header ul li a{
