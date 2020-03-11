@@ -1,27 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-​
-/*enleve les puces des li*/
-li{
-    list-style-type: none;
-}
+
+
+​/*////// BODY /////// */
+
 /*apparaitre image du bandeau*/
-.bandeau{
-    background-image: url(https://static.cnews.fr/sites/default/files/styles/image_640_360/public/code_matrix_0.jpg?itok=rjwgCH3r);
-    width: 100%;
-    height: 7.3vw;
-}
+
 /* aligne, et éloigne la blague et le "connexion"*/
-.flexbox{
+main .flexbox{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.tailleBandeau{
+main .tailleBandeau{
+   background-color: #132acb;
     height: 7.3vw;
-    width: 99.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /*colorer la blague du jour et la positionner*/
 .joke{
@@ -33,9 +28,9 @@ li{
 /*dimenssionne le bouton*/
 .buttonA{
     border-radius: 5%;
-    width: 100%;
+    
     height: 5vw;
-    font-size: 90%;
+    font-size:70%;
     color: crimson;
     background-color: darkgrey;
     font-weight: bold;
@@ -45,21 +40,40 @@ li{
 /*aligner les éléments de la box infos*/
 span{
     font-weight: bold;
+    color: #132acb;
 }
-.infos li{
+.infos{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.infos article{
     border: darkviolet 2px solid;
+    display: inline-block;
+    background-color: #eeeeee;
 }
-.infos li :nth-child(1){
-    flex-grow: 5;
-    background-color: firebrick;
-}
-.infos li :nth-child(2){
-    flex-grow: 1;
-    background-color: blue;
-}
-.infos li :nth-child(3){
-    flex-grow: 1;
+.tuto{
+    flex-grow: 10;
     background-color: chartreuse;
+}
+.forum{
+    flex-grow: 1;
+    background-color: chocolate;
+}
+.techno{
+    flex-grow: 1;
+    background-color: darkblue;
+}
+/*dimension images*/
+.imgBandeau{
+    width: 5vw;
+    height: 6vw;
+}
+/*mise en page du read more*/
+.read{
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*/////////////////
@@ -70,28 +84,29 @@ span{
     font-size: 16px;
 }
 
-body::-webkit-scrollbar {
+.navbar.navbar::-webkit-scrollbar {
     width: 0.25rem;
 }
 
-body::-webkit-scrollbar-track {
-    background: #1e1e24;
+.navbar::-webkit-scrollbar-track {
+    background: white;
 }
 
-body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+.navbar::-webkit-scrollbar-thumb {
+    background: lightgray;
+    opacity: 50%;
+}
+.navbar.navbar::-moz-scrollbar{
+    width: 0.25rem;
 }
 
-body {
-    color: black;
-    background-color: white;
-    margin: 0;
-    padding: 0;
+.navbar::-moz-scrollbar {
+    background: white;
 }
 
-main {
-    margin-left: 5rem;
-    padding: 1rem;
+.navbar::-moz-scrollbar {
+    background: lightgray;
+    opacity: 50%;
 }
 
 .navbar {
@@ -102,6 +117,7 @@ main {
     border: 2px inset lightgray;
     opacity: 100%;
     background: white;
+    overflow: scroll;
 }
 
 .navbar-nav {
@@ -118,7 +134,7 @@ main {
     align-items: center;
     height: 5rem;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
 }
 
 .link-text {
@@ -160,4 +176,40 @@ main {
     font-size: 1.5rem;
     border-bottom: 1px solid black;
     text-align: left;
+}
+
+.link-text {
+    display: flex;
+}
+
+.fa-wordpress {
+    color: darkslategray;
+}
+
+.fa-symfony {
+    color: black;
+}
+
+.fa-git {
+    color: red;
+}
+
+.fa-laravel {
+    color: orange;
+}
+
+.fa-node {
+    color: gray;
+}
+
+.fa-php {
+    color: blueviolet;
+}
+
+.fa-linux {
+    color: black;
+}
+
+.nav-item {
+    
 }
