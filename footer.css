@@ -9,10 +9,9 @@ footer{
     padding: 0;
 }
 
-.logo_footer{
-    color: red;
-    font-size: xx-large; 
-    list-style-type: none;   
+.logo_footer img{
+    width: auto;
+	height: 100px;
 }
 
 .li_footer{
