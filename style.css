@@ -1,6 +1,4 @@
-
-
-​/*////// BODY /////// */
+/*////// BODY /////// */
 
 /*apparaitre image du bandeau*/
 
@@ -28,11 +26,10 @@ main .tailleBandeau{
 /*dimenssionne le bouton*/
 .buttonA{
     border-radius: 5%;
-    
     height: 5vw;
     font-size:70%;
-    color: crimson;
-    background-color: darkgrey;
+    color:black;
+    background-color:#33FFF7 ;
     font-weight: bold;
     box-shadow: 2px 3px 2px 3px darkslategray;
     cursor: pointer; 
@@ -42,33 +39,21 @@ span{
     font-weight: bold;
     color: #132acb;
 }
-.infos{
-    width: 100%;
-    height:100%;
+
+main section article{
+    border: darkviolet 2px solid;
     display: flex;
     justify-content: space-between;
-}
-.infos article{
-    border: darkviolet 2px solid;
-    display: inline-block;
+    align-items: center;    
     background-color: #eeeeee;
 }
-.tuto{
-    flex-grow: 10;
-    background-color: chartreuse;
-}
-.forum{
-    flex-grow: 1;
-    background-color: chocolate;
-}
-.techno{
-    flex-grow: 1;
-    background-color: darkblue;
-}
+
+
 /*dimension images*/
 .imgBandeau{
     width: 5vw;
     height: 6vw;
+    transition: width .5s height .5s;
 }
 /*mise en page du read more*/
 .read{
@@ -208,8 +193,4 @@ span{
 
 .fa-linux {
     color: black;
-}
-
-.nav-item {
-    
 }
