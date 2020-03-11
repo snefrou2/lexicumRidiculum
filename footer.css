@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+footer{
+    background-color:black;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo_footer{
+    color: red;
+    font-size: xx-large; 
+    list-style-type: none;   
+}
+
+.li_footer{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.center_footer{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.git{
+    flex-grow: 2;
+}
+
+ul :nth-child(5) {
+    flex-grow: 3;
+}
+
+
+
+
+
+
