@@ -1,6 +1,7 @@
 footer{
-    background-color: #404852;
+    background-color: white;
     margin: 0;
+    border-top: 1px solid #404852;
 }
 
 .flex{
@@ -20,7 +21,7 @@ footer{
 
 .a_footer{
     text-decoration: none;
-    color: white;
+    color: #404852;
     padding: 0.5vw;
 }
 .favicon {
