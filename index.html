@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexicum Ridiculam</title>
     <!--lien des différentes pages css--> 
     <link rel="stylesheet" href="grafik.css">
     <link rel="stylesheet" typetext="css" href="style.css">
@@ -15,13 +15,14 @@
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
         </style> 
-    <title>LEXICUM RIDICULUM</title>
+    <title>Lexicum Ridiculum</title>
 </head>
 <body>
+    <!--header menu-->
     <header>
         <section>
-            <nav>
-                <ul>
+            <nav class="navigation">
+                <ul class="nav-header">
                     <li>Technologies
                         <ul class="submenu">
                             <li><a href "">Console</a></li>
@@ -42,12 +43,12 @@
                     <li>Forum</li>
                     <li>Tutos
                         <ul class="submenu">
-                            <li><a href "">Console</a></li>
-                            <li><a href "">GIT</a></li>
-                            <li><a href "">HTML</a></li>
-                            <li><a href "">CSS</a></li>
-                            <li><a href "">JS</a></li>
-                            <li><a href "">Python</a></li>
+                            <li><a href="https://doc.ubuntu-fr.org/terminal" target="_blank">Console</a></li>
+                            <a href="https://git-scm.com/docs" target="_blank"></a><li></li>
+                            <li><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></li>
+                            <li><a href="https://www.w3schools.com/Css/" target="_blank">CSS</a></li>
+                            <li><a href="https://developer.mozilla.org/fr/docs/Apprendre/JavaScript" target="_blank">JS</a></li>
+                            <li><a href="https://wiki.python.org/moin/BeginnersGuide" target="_blank">Python</a></li>
                         </ul>
                    </li>
                     <li>Js</li>
@@ -146,55 +147,51 @@
         <ul class="tailleBandeau">
             <!--mettre une image avec le CSS -->
             <li><p class="joke">blague d'hier : T'habites où Julien ? Dans un HTLM !</p></li>
-            <li><button type="submit" class="buttonA"><img src= assetsimages/body/>Connexion/Inscription</button></li>
+            <li><button type="submit" class="buttonA"><p>Connecte-toi</p><img src= assets/images/icone-connect.png></button></li>
         </ul>
     </section>
     <section>
-        <img src="assets/images/body.png" alt="body" class="imgBandeau"/>
     </section>
-    <section class="flexbox infos">
+    <section class="flexbox">
         <!--Box pour infos-->
-            <article class= "tuto"><span>Tuto du jour:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <ul>
+            <li>
+                <article class= "item"><span>Tuto du jour:</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
                 Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
-                Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                 Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue....
-                 <a href="..." class="read">READ MORE</a> 
-            </article>
-            <article class="forum"><span>Forum de discussion:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                ....
+                 <a href="..." class="read">READ MORE</a>
+            </li>
+                </article>
+            <li>
+                <article class="item2"><span>Forum de discussion:</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
                 Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
-                Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                 Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue... 
+                ... 
                  <a href="..." class="read">READ MORE</a>  
-            </article>
-            <article class="techno"><span>Techno du jour:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                </article>
+            </li>
+            <li>
+                <article class="item3"><span>Techno du jour:</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
                 Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
-                Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                 Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. 
-                 Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue....
+                e....
                  <a href="..." class="read">READ MORE</a> 
-                 </article>
-                  
+                 </article>  
+            </li>
         </ul>
     </section>
      <!--sidebar-->
     </section>
-    <img src="assets/images/body2.png" alt="bodybas" class="imgBandeau" />
 </main>
-
-
-        </section>
-    </header>
     <footer class = "cote">
         <section>
             <ul class="flex">         
-                <a href="https://fr-fr.facebook.com/" class="a_footer"><li style="font-size:24px" class="fa">&#xf230;</li></a>
-                <a href="https://twitter.com/login?lang=fr" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf081;</li></a> 
-                <a href="https://twitter.com/login?lang=fr" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf09b;</li></a>
-                <li style="font-size:24px" class="fa git a_footer">&#xf1d3;</li>         
-                <li class="logo_footer a_footer" href="">Logo</li>
+                <a href="https://fr-fr.facebook.com/" target="_blank" class="a_footer"><li style="font-size:24px" class="fa">&#xf230;</li></a>
+                <a href="https://twitter.com/login?lang=fr" target="_blank" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf081;</li></a> 
+                <a href="https://github.com/" target="_blank" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf09b;</li></a>
+                <li style="font-size:24px" class="fa git a_footer">&#xf1d3;</li>  
+                <li class="logo_footer a_footer" href=""><img src="assets/images/logoLexicum.jpg" alt="logo"></li>
             </ul>
         </section>            
         
