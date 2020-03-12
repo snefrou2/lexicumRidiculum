@@ -2,23 +2,17 @@
     margin: 0;
 }
 
-header{
-    position: initial;
-}
-
 .sign_log_form{
     flex-direction: column;
-    border: #124155 1px solid;
+    border: orange 1px solid;
     margin: 5rem 15rem;
     text-align: center;
-    min-height: calc( 100vh - 160px);
-    
 }
 
 .sign_log_form .h2{
     margin: 1rem 0rem;
     text-align: center;
-    color: #124155;
+    color: orange;
     font-size: 40px;
 }
 
@@ -37,14 +31,14 @@ header{
 }
 
 .sign_log_form  label{
-    color: #124155;
+    color: orange;
 }
 
 .sign_log_form form input{
     margin-top: 5px;
     margin-bottom:5px;
     border-radius: 10px;
-    border: #124155 solid 1px;
+    border: orange solid 1px;
     box-shadow: none;
     padding: 1rem;
     margin: 1rem 0rem;
@@ -57,44 +51,25 @@ header{
 }
 
 .sign_log_form input[type="submit"]{
-    background: #124155;
+    background: orange;
     color: white;
-    border: #124155 1px solid;
+    border: orange 1px solid;
     font-size: 15px;
 }
 
 .sign_log_form input[type="submit"]:hover{
     background: white;
-    color: #124155;
-    border: #124155 1px solid;
+    color: orange;
+    border: orange 1px solid;
 }    
 
 .sign_log_form p a{
     text-decoration: none;
-    color: #124155;
+    color: orange;
 }
 
 .sign_log_form p{
     margin: 1rem;
 }
-
-
-/*LEFTNAV*/
-.navbar{
-  position: relative;
-  margin-bottom: 20px ;
-}
-
-li{
-    list-style-type: none;
-}
-.logo_login img{
-  width: 70px;
-  height: 70px;
-  margin: 0;
-  position: fixed;
-  display: none;
-}
-
 
 
