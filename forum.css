@@ -2,6 +2,7 @@
 
 #contener{
     display: flex;
+    margin-bottom: 40px;
 }
 
 /*bloc gauche forum*/
