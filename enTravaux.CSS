@@ -1,0 +1,13 @@
+.ghost{
+    background-image: url(https://i.imgur.com/BOOq7hk.gif%22);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+}
+
+.imageT{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,34 @@
+#contener{
+    display: flex;
+}
+
+.Lcontent{
+    width: 50%;
+    text-align: justify;
+    margin: 5px 0 0 10px;
+}
+
+
+.Lcontent article h2 {
+    background-color: #03fc5e;
+}
+
+.Rcontent{
+    width: 35%;
+    margin: 5px 0 0 100px;
+    
+}
+
+.Rcontent article h2 {
+    background-color: #03fc5e;
+}
+
+.Rcontent article h3 {
+    background-color: #03fc5e;
+    margin:10px 0 0 0;
+}
+
+.Rcontent article ul li {
+    margin-top: 5px;
+}
+
