@@ -10,6 +10,10 @@ margin:0 5%;
 padding: .5%;
 }
 
+.nav-header{
+    margin-left: 10%;
+}
+
 header ul li {
     list-style-type: none;
     width: 200px;
