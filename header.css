@@ -1,12 +1,5 @@
-
-body{
-    
-}
-
-
 nav ul{
 display:flex;
-text-align: center;
 }
 
 header ul li {
@@ -31,6 +24,13 @@ header ul li:hover ul li {
 .submenu{
     padding: 0vw;
     display: block;
-    
-    
+}
+
+.nav-header {
+    display: flex;
+    padding-left: 300px;
+}
+
+header {
+    position: fixed;
 }
