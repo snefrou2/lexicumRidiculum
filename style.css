@@ -51,10 +51,6 @@ button {
 }
 
 /*aligner les éléments de la box infos*/
-span{
-    font-weight: bold;
-    color: #132acb;
-}
 
 /*dimension images*/
 .imgBandeau{
@@ -66,10 +62,41 @@ span{
 
 main section article {
     display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
 }
 section article .picContainer img{
     width: 500px;
 }
+.picContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.textContainer {
+    margin: 2rem;
+    width: 50%;
+    text-align: center;
+}
+.textContainer h2 {
+    margin-bottom: 1rem;
+}
+.pageAccueil {
+    display: flex;
+    flex-direction: column;
+}
+.pageAccueil :nth-child(2) {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.pageAccueil :nth-child(3) {
+    align-items: center;
+}
+
+
+
+
 
 /*/////////////////
 ///    Sidebar   //
