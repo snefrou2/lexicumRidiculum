@@ -1,0 +1,50 @@
+/*mise ne page du bandeau de joke*/
+.loic{
+    background-image:url(assets/images/backJoke.png);
+    width: 100%;
+    height: 7.3vw;
+    opacity: 0.5;   
+}
+.loic ul{
+    color: black;
+    font-size: 100px;   
+}
+.loic li{
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    opacity: none;
+}
+
+/*mise ne page blague d'hier*/
+.joker{
+    color:black;
+}
+.hierJ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hierJ li{
+    color: blueviolet;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-top:25px;
+}
+/*mise en page autres blagues*/
+.blague{
+    display: flex;
+}
+h2{
+    color: blueviolet;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+
+
+
+
