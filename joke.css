@@ -1,38 +1,44 @@
+
 /*mise ne page du bandeau de joke*/
 .loic{
     background-image:url(assets/images/backJoke.png);
-    opacity: 0.5; 
-    height: 12vw;
+    font-family: 'Indie Flower', cursive;
     display: flex;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center; 
+    padding-top: 3%;
+    height: 100%;
+  
 }
 .loic ul{
     color: black;
     font-size: 100px;     
 }
 .loic li{
-    text-align: center;
-    opacity: none; 
+    text-align: center;  
 }
 .hierJ h1{
-    color: blueviolet;
+    color: rgb(40, 124, 33);
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
     opacity: none;
 }
+.chiant{
+    background-color:white;
+    padding-left: 20px;
+}
+    
+
 
 /*mise ne page blague d'hier*/
-.joker{
-    color:black;
-}
+
 .hierJ{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .hierJ li{
-    color: blueviolet;
+    color: rgb(40, 124, 33);
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
     margin-top:25px;
@@ -43,12 +49,12 @@
     justify-content: space-around;
     margin-top: 40px;
 }
-h2{
-    color: blueviolet;
+.blague h2{
+    color: rgb(40, 124, 33);
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }
-/*mise en page des ections de blagues*/
+/*mise en page des sections de blagues*/
 .dev li{
     padding-bottom: 20px;
 }

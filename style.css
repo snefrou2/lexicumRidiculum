@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .bandeau ul {
@@ -21,6 +22,7 @@
     background-size: cover;
     background-position: center center;
 }
+
 
 button {
     margin-right: 100px;
@@ -50,10 +52,6 @@ button {
 }
 
 /*aligner les éléments de la box infos*/
-span{
-    font-weight: bold;
-    color: #132acb;
-}
 
 /*dimension images*/
 .imgBandeau{
@@ -63,15 +61,43 @@ span{
 }
 /*mise en page du read more*/
 
-.flexbox {
-    padding-top: 10rem;
+main section article {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+section article .picContainer img{
+    width: 500px;
+}
+.picContainer{
+    width: 50%;
+    display: flex;
     justify-content: center;
-    padding: 5% 2% 0 2%;
+}
+.textContainer {
+    margin: 2rem;
+    width: 50%;
+    text-align: center;
+}
+.textContainer h2 {
+    margin-bottom: 1rem;
+}
+.pageAccueil {
+    display: flex;
+    flex-direction: column;
+}
+.pageAccueil :nth-child(2) {
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
-.flexbox ul {
-    display: flex;
+.pageAccueil :nth-child(3) {
+    align-items: center;
 }
+
+
+
+
 
 /*/////////////////
 ///    Sidebar   //
