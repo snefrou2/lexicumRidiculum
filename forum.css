@@ -2,20 +2,23 @@
     display: flex;
 }
 
+/*bloc gauche forum*/
 .Lcontent{
-    width: 50%;
+    width: 70%;
     text-align: justify;
     margin: 5px 0 0 10px;
 }
 
 
-.Lcontent article h2 {
+.Lcontent h2 {
     background-color: #03fc5e;
 }
 
+/*bloc droit forum*/
+
 .Rcontent{
     width: 35%;
-    margin: 5px 0 0 100px;
+    margin: 5px 0 0 20px;
     
 }
 
@@ -31,4 +34,27 @@
 .Rcontent article ul li {
     margin-top: 5px;
 }
+
+/*contenu bloc forum*/
+
+.topilist ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.topilist ul li {
+    margin:auto;
+    padding: 1rem;
+
+}
+
+
+.section ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eceaea
+
+}
+
 
