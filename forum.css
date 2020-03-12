@@ -1,3 +1,5 @@
+/*contener principale*/
+
 #contener{
     display: flex;
 }
@@ -15,7 +17,7 @@
 }
 
 
-/*contenu bloc forum*/
+/*contenu bloc tableau forum*/
 
 
 table{
