@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+    main {
+        padding: 0%;
+    }
+    body ul li{
+        list-style-type: none;}
+    
+    /*mise en page des nav*/
+    nav{
+        background-color:#ecf5fa;
+    }
+    nav li{
+        color:black ;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+    
+    h1{
+        color:#132acb;
+    }
+    /*mise en page à coté de la sidebar*/
+    .cote{
+        padding-left: 5.4vw;
+        height: 100%;
+    }
+main {
+    padding: 0%;
+}
+body ul li{
+    list-style-type: none;}
+
+/*mise en page des nav*/
+nav{
+    background-color:#ecf5fa;
+    color:black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*mise en page des texte*/
+li{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color:#132acb;
+}
+/*mise à coté de la sidebar*/
+
+.cote{
+    padding-left: 5.4vw;
+}
+/*affiche "..." avant chaque READ MORE*/
+main section article a::before{
+    content: "...";
+}
+/*dimensionne le main en fonction de la hauteur du header et du footer (100vh - (hauteur header + hauteur footer)*/
+main{
+    min-height: calc(100vh - 104.8px) ;
+}
