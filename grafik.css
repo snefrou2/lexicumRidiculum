@@ -13,9 +13,9 @@
         font-family: 'Indie Flower', cursive;
         font-weight: bold;
     }
-    
-    h1{
-        color:#132acb;
+
+    h2{
+        font-family: 'Indie Flower', cursive;
     }
     /*mise en page à coté de la sidebar*/
     .cote{
@@ -34,9 +34,7 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.bandeau{
-    margin-top: 25px;
-}
+
 
 /*mise en page des texte*/
 li{

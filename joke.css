@@ -1,15 +1,14 @@
-header{
-    height: 25px;
-    padding-bottom: 5px;
-}
+
 /*mise ne page du bandeau de joke*/
 .loic{
     background-image:url(assets/images/backJoke.png);
     font-family: 'Indie Flower', cursive;
-    height: 5vw;
     display: flex;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center; 
+    padding-top: 3%;
+    height: 100%;
+  
 }
 .loic ul{
     color: black;
@@ -24,11 +23,15 @@ header{
     font-size: 50px;
     opacity: none;
 }
+.chiant{
+    background-color:white;
+    padding-left: 20px;
+}
+    
+
 
 /*mise ne page blague d'hier*/
-.joker{
-    color:black;
-}
+
 .hierJ{
     display: flex;
     align-items: center;
@@ -54,9 +57,6 @@ header{
 /*mise en page des sections de blagues*/
 .dev li{
     padding-bottom: 20px;
-}
-main{
-    min-height: calc(100vh - 77.375px) ;
 }
 
 

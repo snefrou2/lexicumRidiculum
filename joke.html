@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lexicum Ridiculam</title>
     <!--lien des différentes pages css--> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="grafik.css">
     <link rel="stylesheet" typetext="css" href="style.css">
     <link rel="stylesheet" typetext="css" href="header.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="grafik.css">
-    <link rel="stylesheet" href="joke.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" typetext="css" href="joke.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
@@ -20,7 +20,7 @@
 </head>
 <body>
     <!--header menu-->
-    <header>
+    <header class="chiant">
         <section>
             <nav>
                 <ul>
@@ -57,7 +57,7 @@
                         <label for="site-search"></label>
                         <input type="search" id="site-search" name="search" aria-label="Search through site content"
                             placeholder="Tapez votre recherche">
-                    <li>
+                    </li>
                 </ul>
             </nav>
         </section>
@@ -201,24 +201,24 @@
         </section>       
     </main>
 </body>
-    <footer class = "cote">
-        <section>
-            <ul class="flex">         
-                <a href="https://fr-fr.facebook.com/" class="a_footer"><li style="font-size:24px" class="fa">&#xf230;</li></a>
-                <a href="https://twitter.com/login?lang=fr" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf081;</li></a> 
-                <a href="https://twitter.com/login?lang=fr" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf09b;</li></a>
-                <li style="font-size:24px" class="fa git a_footer">&#xf1d3;</li>         
-                <li class="logo_footer a_footer" href="">Logo</li>
-            </ul>
-        </section>            
-        
+<footer class = "cote">
+    <section>
+        <ul class="flex">         
+            <a href="https://fr-fr.facebook.com/" target="_blank" class="a_footer"><li style="font-size:24px" class="fa">&#xf230;</li></a>
+            <a href="https://twitter.com/login?lang=fr" target="_blank" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf081;</li></a> 
+            <a href="https://github.com/" target="_blank" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf09b;</li></a>
+            <li style="font-size:24px" class="fa git a_footer">&#xf1d3;</li>  
+            <li class="logo_footer a_footer" href=""><img src="assets/images/logoLexicum.jpg" alt="logo"></li>
+        </ul>
+    </section>
+    <section>            
         <ul class="flex center_footer">
             <li class="li_footer"><a href="" class="a_footer">Forum</a></li>
             <li class="li_footer"><a href="#Contact" class="a_footer">Contact</a></li>
             <li class="li_footer"><a href="" class="a_footer">Mentions légales</a></li>
             <li class="li_footer"><a href="" class="a_footer">Charte</a></li>
         </ul>
-       
-    </footer>
+    </section>
+</footer>
 </body>
 </html>
