@@ -7,9 +7,7 @@
         list-style-type: none;}
     
     /*mise en page des nav*/
-    nav{
-        background-color:#ecf5fa;
-    }
+    
     nav li{
         color:black ;
         font-family: 'Indie Flower', cursive;
@@ -22,13 +20,8 @@
     /*mise en page à coté de la sidebar*/
     .cote{
         margin-left: 5rem;
-        padding: 1rem;
-        
+        padding: 1px;
     }
-main {
-    padding: 0%;
-
-}
 
 
 body ul li{
@@ -38,9 +31,12 @@ body ul li{
 
 /*mise en page des nav*/
 nav{
-    background-color:#ecf5fa;
     color:black ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bandeau{
+    margin-top: 25px;
 }
 
 /*mise en page des texte*/
@@ -61,5 +57,6 @@ main section article a::before{
 }
 /*dimensionne le main en fonction de la hauteur du header et du footer (100vh - (hauteur header + hauteur footer)*/
 main{
-    min-height: calc(100vh - 104.8px) ;
+    min-height: calc(100vh - 104.8px);
+    margin-left: 1rem;
 }
