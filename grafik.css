@@ -32,7 +32,11 @@ body ul li{
 /*mise en page des nav*/
 nav{
     color:black ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bandeau{
+    margin-top: 25px;
 }
 
 /*mise en page des texte*/
