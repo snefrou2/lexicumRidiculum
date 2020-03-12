@@ -66,6 +66,12 @@ main section article {
     padding: 1rem;
     border-bottom: 1px solid grey;
 }
+
+main section article:nth-child(3){
+    border-bottom: white;
+    margin-bottom: 50px;
+}
+
 section article .picContainer img{
     width: 500px;
 }
