@@ -3,19 +3,26 @@
 /*apparaitre image du bandeau*/
 
 /* aligne, et éloigne la blague et le "connexion"*/
+
+.bandeau {
+    padding-top: 3%;
+}
+
 .tailleBandeau{
     height: 12vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .bandeau ul {
-    background-image: url(https://www.wallpapermaiden.com/wallpaper/6492/download/3840x2160/developer-javascript-codes-coding-web-development.jpg);
+    background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
 
 button {
     margin-right: 100px;
@@ -45,10 +52,6 @@ button {
 }
 
 /*aligner les éléments de la box infos*/
-span{
-    font-weight: bold;
-    color: #132acb;
-}
 
 /*dimension images*/
 .imgBandeau{
@@ -58,29 +61,43 @@ span{
 }
 /*mise en page du read more*/
 
-.flexbox {
-    padding-top: 10rem;
-}
-
-.flexbox ul {
+main section article {
     display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+section article .picContainer img{
+    width: 500px;
+}
+.picContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.textContainer {
+    margin: 2rem;
+    width: 50%;
+    text-align: center;
+}
+.textContainer h2 {
+    margin-bottom: 1rem;
+}
+.pageAccueil {
+    display: flex;
+    flex-direction: column;
+}
+.pageAccueil :nth-child(2) {
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
-.flexbox .tuto {
-    width: 100%;
-} 
-
-.item {
-    flex: 1 1 0;
+.pageAccueil :nth-child(3) {
+    align-items: center;
 }
 
-.item2 {
-    flex: 1 1 0;
-}
 
-.item3 {
-    flex: 2 1 0;
-}
+
+
 
 /*/////////////////
 ///    Sidebar   //
@@ -104,8 +121,6 @@ span{
 }
 
 .navbar {
-    width: 5rem;
-    height: 100%;
     position: fixed;
     transition: 200ms ease;
     border: 2px inset lightgray;
@@ -131,6 +146,33 @@ span{
     height: 5rem;
     text-decoration: none;
     border-bottom: 1px solid lightgray;
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    align-items: left;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img {
+    height: auto;
+    width: 4rem;
+}
+
+.nav-link img {
+    padding-left: 5px;
+    border-bottom: none;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
 }
 
 .link-text {
@@ -204,4 +246,48 @@ span{
 
 .fa-linux {
     color: black;
+}
+
+/*/////////////////
+///    Sidebar   //
+/////////////////*/
+
+@media only screen and (min-width: 800px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+
+    .navbar:hover {
+        width: 16rem;
+    }
+
+    .navbar:hover .link-text {
+        display: inline;
+    }
+}
+
+@media only scrren and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+    main {
+        margin: 0;
+    }
 }
