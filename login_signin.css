@@ -1,12 +1,74 @@
+/*FOOTER 580px*/
+
+footer{
+    min-height: calc(100vh - 580px);
+    margin: 0 80px;
+    background-color: white;
+    margin: 0 80px;
+    border-top: 1px solid #123f54;
+}
+
+.logo_footer.a_footer{
+    list-style-type: none;
+}
+
 *{
     margin: 0;
 }
 
-.sign_log_form{
+.flex{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo_footer img{
+    width: auto;
+    height: 100px;
+}
+
+.li_footer{
+    list-style-type: none;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: #404852;
+    padding: 0.5vw;
+}
+.favicon {
+    padding-left: 5vw;
+}
+.twitter {
+    padding-right: 2vw;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.center_footer{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.git{
+    flex-grow: 2;
+}
+
+ul :nth-child(5) {
+    flex-grow: 3;
+}
+
+
+/*FORMS*/
+
+section.sign_log_form{
     flex-direction: column;
     border: #123f54 1px solid;
     margin: 5rem 15rem;
     text-align: center;
+    
 }
 
 .sign_log_form .h2{
@@ -19,8 +81,7 @@
 .sign_log_form .forms{
     display: flex;
     justify-content: center; /* axe principale*/ 
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .sign_log_form form{
