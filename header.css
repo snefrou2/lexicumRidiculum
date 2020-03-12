@@ -4,7 +4,7 @@ display:flex;
 
 header ul li {
     list-style-type: none;
-    width: 15%;
+    
 }
 
 header ul li a{
@@ -34,6 +34,3 @@ header ul li:hover ul li {
 header {
     position: fixed;
 }
-
-
-

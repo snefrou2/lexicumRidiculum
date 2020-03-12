@@ -22,6 +22,7 @@ button {
 }
 
 /*colorer la blague du jour et la positionner*/
+
 .joke{
     color: yellow;
     width: 30vw;

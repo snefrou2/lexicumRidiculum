@@ -21,9 +21,11 @@
     }
     /*mise en page à coté de la sidebar*/
     .cote{
+
         margin-left: 5rem;
         padding: 1rem;
     }
+
 
 body ul li{
     list-style-type: none;}
@@ -44,6 +46,7 @@ h1{
     color:#132acb;
 }
 /*mise à coté de la sidebar*/
+
 
 /*affiche "..." avant chaque READ MORE*/
 main section article a::before{
