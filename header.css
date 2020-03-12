@@ -35,19 +35,24 @@ header ul li a{
 
 header ul li ul li {
     display: none;
-    color: black;
-    opacity:0.7;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity:0.8;
+    transition: 200ms ease;
 }
 
 header ul li:hover ul li {
     display: block;
-    color: rgb(24, 0, 46);
     height: 1.5rem;
 }
 
 .submenu{
     padding: 0vw;
     display: block;
+}
+.submenu a{
+    color: rgb(255, 255, 255);
+    text-shadow:0 0 2px rgb(0, 0, 0);
 }
 
 #site-search{
@@ -57,3 +62,6 @@ header ul li:hover ul li {
     border-radius: 5px;
 }
 
+.submenu li{
+    font-style: oblique;
+}

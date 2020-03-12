@@ -20,12 +20,23 @@
     /*mise en page à coté de la sidebar*/
     .cote{
         margin-left: 5rem;
-        padding: 1rem;   
+        padding: 1px;
     }
 
 
 body ul li{
     list-style-type: none;}
+
+
+/*mise en page des nav*/
+nav{
+    color:black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bandeau{
+    margin-top: 25px;
+}
 
 /*mise en page des texte*/
 li{
@@ -45,5 +56,7 @@ main section article a::before{
 }
 /*dimensionne le main en fonction de la hauteur du header et du footer (100vh - (hauteur header + hauteur footer)*/
 main{
-    min-height: calc(100vh - 104.8px) ;
+    min-height: calc(100vh - 104.8px);
+    margin-left: 1rem;
 }
+
