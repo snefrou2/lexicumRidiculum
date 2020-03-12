@@ -23,20 +23,33 @@
     }
     /*mise en page à coté de la sidebar*/
     .cote{
+<<<<<<< HEAD
         padding-left: 5.4vw;
+=======
+        padding-left: 5rem;
+>>>>>>> 55590c6ff1e697bd8605feb0916a658b76ff305c
         height: 100%;
     }
 main {
     padding: 0%;
+<<<<<<< HEAD
 }
 body ul li{
     list-style-type: none;}
+=======
+    mar
+}
+>>>>>>> 55590c6ff1e697bd8605feb0916a658b76ff305c
 
 /*mise en page des nav*/
 nav{
     background-color:#ecf5fa;
     color:black ;
+<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+=======
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+>>>>>>> 55590c6ff1e697bd8605feb0916a658b76ff305c
 }
 
 /*mise en page des texte*/
@@ -44,6 +57,7 @@ li{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+<<<<<<< HEAD
 h1{
     color:#132acb;
 }
@@ -52,6 +66,9 @@ h1{
 .cote{
     padding-left: 5.4vw;
 }
+=======
+
+>>>>>>> 55590c6ff1e697bd8605feb0916a658b76ff305c
 /*affiche "..." avant chaque READ MORE*/
 main section article a::before{
     content: "...";
