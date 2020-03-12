@@ -1,6 +1,8 @@
 header{
     position: fixed;
     width: 100%;
+   
+   
 }
 
 nav ul{
@@ -8,6 +10,8 @@ display:flex;
 justify-content: space-between;
 margin:0 5%;
 padding: .5%;
+height: 300px;
+
 }
 
 .nav-header{
