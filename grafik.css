@@ -25,10 +25,6 @@
         padding: 1rem;
         
     }
-main {
-    padding: 0%;
-
-}
 
 
 body ul li{
@@ -55,9 +51,6 @@ h1{
 /*mise à coté de la sidebar*/
 
 
-.cote{
-    padding-left: 5.4vw;
-}
 
 /*affiche "..." avant chaque READ MORE*/
 main section article a::before{
