@@ -1,10 +1,27 @@
+header{
+    position: fixed;
+    width: 100%;
+}
+
 nav ul{
 display:flex;
+justify-content: space-between;
+margin:0 5%;
+padding: .5%;
+}
+
+.nav-header{
+    margin-left: 10%;
 }
 
 header ul li {
     list-style-type: none;
-    
+    width: 200px;
+    height:25px;
+   
+}
+.nav-header{
+    margin-left: 10%;
 }
 
 header ul li a{
@@ -14,23 +31,33 @@ header ul li a{
 
 header ul li ul li {
     display: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity:0.8;
+    transition: 200ms ease;
 }
 
 header ul li:hover ul li {
     display: block;
-    color: blueviolet;
+    height: 1.5rem;
 }
 
 .submenu{
     padding: 0vw;
     display: block;
 }
-
-.nav-header {
-    display: flex;
-    padding-left: 300px;
+.submenu a{
+    color: rgb(255, 255, 255);
+    text-shadow:0 0 2px rgb(0, 0, 0);
 }
 
-header {
-    position: fixed;
+#site-search{
+    height: 27px;
+    width: 250px;
+    box-shadow: cadetblue;
+    border-radius: 5px;
+}
+
+.submenu li{
+    font-style: oblique;
 }
