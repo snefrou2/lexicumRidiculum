@@ -14,6 +14,45 @@
     background-color: #03fc5e;
 }
 
+
+/*contenu bloc forum*/
+
+
+table{
+    background-color: #eaeaea;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border: 1px solid goldenrod;
+}
+
+
+
+.Top{
+    width: 65%;
+    padding-left: 10px;
+    
+}
+
+.Top p {
+    padding-left: 10px;
+}
+
+
+.Voi{
+width: 20%;
+text-align: center;
+}
+
+.Pos{
+width: 15%;
+text-align: center;
+}
+
+.Dat{
+width: 15%;
+
+}
+
 /*bloc droit forum*/
 
 .Rcontent{
@@ -22,39 +61,23 @@
     
 }
 
-.Rcontent article h2 {
+.Rcontent h2 {
     background-color: #03fc5e;
 }
 
-.Rcontent article h3 {
+.Rcontent h3 {
     background-color: #03fc5e;
     margin:10px 0 0 0;
 }
 
-.Rcontent article ul li {
+.Rcontent ul li {
     margin-top: 5px;
 }
 
-/*contenu bloc forum*/
-
-.topilist ul {
-    display: flex;
-    justify-content: space-around;
-    
+.Rcontent ul li a {
+    text-decoration: none;
+    color: #010101;
 }
 
-.topilist ul li {
-    margin:auto;
-    padding: 1rem;
-
-}
-
-
-.section ul {
-    display: flex;
-    justify-content: space-around;
-    background-color: #eceaea
-
-}
 
 
