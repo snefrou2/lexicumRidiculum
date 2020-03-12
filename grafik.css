@@ -51,7 +51,6 @@ h1{
 /*mise à coté de la sidebar*/
 
 
-
 /*affiche "..." avant chaque READ MORE*/
 main section article a::before{
     content: "...";
