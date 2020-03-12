@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.sign_log_form{
+    flex-direction: column;
+    border: orange 1px solid;
+    margin: 5rem 15rem;
+    text-align: center;
+}
+
+.sign_log_form .h2{
+    margin: 1rem 0rem;
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+}
+
+.sign_log_form .forms{
+    display: flex;
+    justify-content: center; /* axe principale*/ 
+    text-align: center;
+    
+}
+
+.sign_log_form form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+.sign_log_form  label{
+    color: orange;
+}
+
+.sign_log_form form input{
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-radius: 10px;
+    border: orange solid 1px;
+    box-shadow: none;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    
+}
+
+.sign_log_form .inscription{
+    width: 80%;
+    
+}
+
+.sign_log_form input[type="submit"]{
+    background: orange;
+    color: white;
+    border: orange 1px solid;
+    font-size: 15px;
+}
+
+.sign_log_form input[type="submit"]:hover{
+    background: white;
+    color: orange;
+    border: orange 1px solid;
+}    
+
+.sign_log_form p a{
+    text-decoration: none;
+    color: orange;
+}
+
+.sign_log_form p{
+    margin: 1rem;
+}
+
+
