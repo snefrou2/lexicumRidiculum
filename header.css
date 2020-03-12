@@ -6,16 +6,19 @@ header{
 nav ul{
 display:flex;
 justify-content: space-between;
-text-align: center;
 margin:0 5%;
 padding: .5%;
+}
+
+.nav-header{
+    margin-left: 10%;
 }
 
 header ul li {
     list-style-type: none;
     width: 200px;
     height:25px;
-    background-color:#ecf5fa;
+    background-color:#ffffff;
 }
 
 header ul li a{
