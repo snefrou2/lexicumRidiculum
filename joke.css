@@ -65,6 +65,12 @@
 .dev li{
     padding-bottom: 20px;
 }
+/*dimension img bodie*/
+.bodie{
+    height: 50px;
+    width: 45px;
+    padding-left: 5%;
+}
 
 /*/////RESPONSIVE//////*/
 

@@ -172,7 +172,12 @@ main section article a::before{
 .read{
     color: #cedf45;
 }
-
+/*dimension img bodie*/
+.bodie{
+    height: 50px;
+    width: 45px;
+    padding-left: 5%;
+}
 
 /*/////////////////
 ///    Sidebar   //
