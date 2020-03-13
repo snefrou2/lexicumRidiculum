@@ -165,7 +165,13 @@ section article .picContainer img{
     align-items: center;
 }
 
-
+/*affiche "..." avant chaque READ MORE*/
+main section article a::before{
+    content: "...";
+}
+.read{
+    color: #cedf45;
+}
 
 
 /*/////////////////

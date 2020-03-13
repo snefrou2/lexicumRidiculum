@@ -42,14 +42,6 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-/*mise à coté de la sidebar*/
-
-
-/*affiche "..." avant chaque READ MORE*/
-main section article a::before{
-    content: "...";
-}
 /*dimensionne le main en fonction de la hauteur du header et du footer (100vh - (hauteur header + hauteur footer)*/
 main{
     min-height: calc(100vh - 104.8px);
