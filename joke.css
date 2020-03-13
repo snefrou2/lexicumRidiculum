@@ -59,6 +59,22 @@
     padding-bottom: 20px;
 }
 
+/*/////RESPONSIVE//////*/
+
+@media screen and (max-width: 640px) {
+    .navbar{
+        display: none;
+    }
+    .loic li{
+        font-size: 70px;
+    }
+    .hierJ li{
+        font-size: 20px;
+}
+.joker{
+    font-size: 30px;
+}
+
 
 
 
