@@ -1,15 +1,23 @@
 
 /*mise ne page du bandeau de joke*/
-.loic{
-    background-image:url(assets/images/backJoke.png);
-    font-family: 'Indie Flower', cursive;
+.loic {
+    padding-top: 3%;
+}
+
+.tailleLoic{
+    height: 12vw;
     display: flex;
     justify-content: space-around;
-    align-items: center; 
-    padding-top: 3%;
-    height: 100%;
-  
+    align-items: center;
+    margin-bottom: 2rem;
 }
+.loic ul {
+    background-image: url(assets/images/backJoke.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .loic ul{
     color: black;
     font-size: 100px;     
@@ -18,10 +26,9 @@
     text-align: center;  
 }
 .hierJ h1{
-    color: rgb(40, 124, 33);
+    color: #134256;
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
-    opacity: none;
 }
 .chiant{
     background-color:white;
@@ -38,7 +45,7 @@
     justify-content: center;
 }
 .hierJ li{
-    color: rgb(40, 124, 33);
+    color: #134256;
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
     margin-top:25px;
@@ -50,7 +57,7 @@
     margin-top: 40px;
 }
 .blague h2{
-    color: rgb(40, 124, 33);
+    color: #134256);
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }

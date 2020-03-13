@@ -14,7 +14,8 @@
 
 
 .Lcontent h2 {
-    background-color: #03fc5e;
+    background-color: #134256;
+    color: white;
 }
 
 
@@ -65,11 +66,13 @@ width: 15%;
 }
 
 .Rcontent h2 {
-    background-color: #03fc5e;
+    background-color: #134256;
+    color: white;
 }
 
 .Rcontent h3 {
-    background-color: #03fc5e;
+    background-color: #134256;
+    color: white;
     margin:10px 0 0 0;
 }
 
@@ -79,7 +82,7 @@ width: 15%;
 
 .Rcontent ul li a {
     text-decoration: none;
-    color: #010101;
+    color: #131212;
 }
 
 

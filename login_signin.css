@@ -5,7 +5,7 @@ footer{
     margin: 0 80px;
     background-color: white;
     margin: 0 80px;
-    border-top: 1px solid #123f54;
+    border-top: 1px solid ##134256;
 }
 
 .logo_footer.a_footer{
@@ -65,7 +65,7 @@ ul :nth-child(5) {
 
 section.sign_log_form{
     flex-direction: column;
-    border: #123f54 1px solid;
+    border: #134256 1px solid;
     margin: 5rem 15rem;
     text-align: center;
     
@@ -74,7 +74,7 @@ section.sign_log_form{
 .sign_log_form .h2{
     margin: 1rem 0rem;
     text-align: center;
-    color: #123f54;
+    color: #134256;
     font-size: 40px;
 }
 
@@ -92,14 +92,14 @@ section.sign_log_form{
 }
 
 .sign_log_form  label{
-    color: #123f54;
+    color: #134256;
 }
 
 .sign_log_form form input{
     margin-top: 5px;
     margin-bottom:5px;
     border-radius: 10px;
-    border: #123f54 solid 1px;
+    border: #134256 solid 1px;
     box-shadow: none;
     padding: 1rem;
     margin: 1rem 0rem;
@@ -112,21 +112,21 @@ section.sign_log_form{
 }
 
 .sign_log_form input[type="submit"]{
-    background: #123f54;
+    background: #134256;
     color: white;
-    border: #123f54 1px solid;
+    border: #134256 1px solid;
     font-size: 15px;
 }
 
 .sign_log_form input[type="submit"]:hover{
     background: white;
-    color: #123f54;
-    border: #123f54 1px solid;
+    color: #134256;
+    border: #134256 1px solid;
 }    
 
 .sign_log_form p a{
     text-decoration: none;
-    color: #123f54;
+    color: #cde144;
 }
 
 .sign_log_form p{
