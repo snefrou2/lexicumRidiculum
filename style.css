@@ -34,7 +34,7 @@ button {
     color: yellow;
     width: 30vw;
     padding-left: 10%;
-    font-weight: bold;
+    font-weight: bold;    
 }
 /*dimenssionne le bouton*/
 .buttonA{
@@ -46,10 +46,6 @@ button {
     color: white;
     text-align: center;
 }  
-
-.buttonA p {
-    color: red;
-}
 
 /*aligner les éléments de la box infos*/
 
@@ -87,6 +83,7 @@ section article .picContainer img{
 }
 .textContainer h2 {
     margin-bottom: 1rem;
+    color: #134256;
 }
 .pageAccueil {
     display: flex;
