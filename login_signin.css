@@ -1,0 +1,136 @@
+/*FOOTER 580px*/
+
+footer{
+    min-height: calc(100vh - 580px);
+    margin: 0 80px;
+    background-color: white;
+    margin: 0 80px;
+    border-top: 1px solid ##134256;
+}
+
+.logo_footer.a_footer{
+    list-style-type: none;
+}
+
+*{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo_footer img{
+    width: auto;
+    height: 100px;
+}
+
+.li_footer{
+    list-style-type: none;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: #404852;
+    padding: 0.5vw;
+}
+.favicon {
+    padding-left: 5vw;
+}
+.twitter {
+    padding-right: 2vw;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.center_footer{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.git{
+    flex-grow: 2;
+}
+
+ul :nth-child(5) {
+    flex-grow: 3;
+}
+
+
+/*FORMS*/
+
+section.sign_log_form{
+    flex-direction: column;
+    border: #134256 1px solid;
+    margin: 5rem 15rem;
+    text-align: center;
+    
+}
+
+.sign_log_form .h2{
+    margin: 1rem 0rem;
+    text-align: center;
+    color: #134256;
+    font-size: 40px;
+}
+
+.sign_log_form .forms{
+    display: flex;
+    justify-content: center; /* axe principale*/ 
+    text-align: center;    
+}
+
+.sign_log_form form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+.sign_log_form  label{
+    color: #134256;
+}
+
+.sign_log_form form input{
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-radius: 10px;
+    border: #134256 solid 1px;
+    box-shadow: none;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    
+}
+
+.sign_log_form .inscription{
+    width: 80%;
+    
+}
+
+.sign_log_form input[type="submit"]{
+    background: #134256;
+    color: white;
+    border: #134256 1px solid;
+    font-size: 15px;
+}
+
+.sign_log_form input[type="submit"]:hover{
+    background: white;
+    color: #134256;
+    border: #134256 1px solid;
+}    
+
+.sign_log_form p a{
+    text-decoration: none;
+    color: #cde144;
+}
+
+.sign_log_form p{
+    margin: 1rem;
+}
+
+

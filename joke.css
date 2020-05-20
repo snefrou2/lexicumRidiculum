@@ -1,0 +1,90 @@
+
+/*mise ne page du bandeau de joke*/
+.loic {
+    padding-top: 3%;
+}
+
+.tailleLoic{
+    height: 12vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.loic ul {
+    background-image: url(assets/images/backJoke.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.loic ul{
+    color: black;
+    font-size: 100px;     
+}
+.loic li{
+    text-align: center;  
+}
+.hierJ h1{
+    color: #134256;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+.chiant{
+    background-color:white;
+    padding-left: 20px;
+}
+    
+
+
+/*mise ne page blague d'hier*/
+
+.hierJ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hierJ li{
+    color: #134256;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-top:25px;
+}
+/*mise en page autres blagues*/
+.blague{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.blague h2{
+    color: #134256);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+/*mise en page des sections de blagues*/
+.dev li{
+    padding-bottom: 20px;
+}
+/*dimension img bodie*/
+.bodie{
+    height: 50px;
+    width: 45px;
+    padding-left: 5%;
+}
+
+/*/////RESPONSIVE//////*/
+
+@media screen and (max-width: 640px) {
+    .navbar{
+        display: none;
+    }
+    .loic li{
+        font-size: 70px;
+    }
+    .hierJ li{
+        font-size: 20px;
+}
+.joker{
+    font-size: 30px;
+}
+}

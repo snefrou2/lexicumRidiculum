@@ -1,0 +1,424 @@
+/*///// HEADER/////*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 35px; 
+}
+
+nav ul{
+display:flex;
+justify-content: space-around;
+padding: .5%;
+margin: 0 5%;
+height: 300px;
+
+}
+
+.nav-header{
+    margin-left: 10%;
+}
+
+header ul li {
+    list-style-type: none;
+    width: 200px;
+    height:25px;
+
+   
+}
+.nav-header{
+    margin-left: 10%;
+}
+
+header ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+header ul li ul li {
+    display: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity:0.8;
+}
+
+header ul li:hover ul li {
+    display: block;
+    height: 1.5rem;
+}
+
+.submenu{
+    display: block;
+}
+.submenu a{
+    color:rgb(26, 26, 26);
+    background-color: white;
+    opacity: 0.7;
+}
+
+#site-search{
+    height: 27px;
+    width: 250px;
+    box-shadow: cadetblue;
+    border-radius: 5px;
+}
+
+.submenu li{
+    font-style: oblique;
+}
+/*////// BODY /////// */
+
+/*apparaitre image du bandeau*/
+
+/* aligne, et éloigne la blague et le "connexion"*/
+
+.bandeau {
+    padding-top: 3%;
+}
+
+.tailleBandeau{
+    height: 12vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.bandeau ul {
+    background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+button {
+    margin-right: 100px;
+}
+
+/*colorer la blague du jour et la positionner*/
+
+.joke{
+    color: yellow;
+    width: 30vw;
+    padding-left: 10%;
+    font-weight: bold;    
+}
+/*dimenssionne le bouton*/
+.buttonA{
+    font-size:70%;
+    font-weight: bold;
+    cursor: pointer; 
+    background: none;
+    border: none;
+    color: white;
+    text-align: center;
+}  
+
+/*aligner les éléments de la box infos*/
+
+/*dimension images*/
+.imgBandeau{
+    width: 5vw;
+    height: 6vw;
+    transition: width .5s height .5s;
+}
+/*mise en page du read more*/
+
+main section article {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+main section article:nth-child(3){
+    border-bottom: white;
+    margin-bottom: 50px;
+}
+
+section article .picContainer img{
+    width: 500px;
+}
+.picContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.textContainer {
+    margin: 2rem;
+    width: 50%;
+    text-align: center;
+}
+.textContainer h2 {
+    margin-bottom: 1rem;
+    color: #134256;
+}
+.pageAccueil {
+    display: flex;
+    flex-direction: column;
+}
+.pageAccueil :nth-child(2) {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.pageAccueil :nth-child(3) {
+    align-items: center;
+}
+
+/*affiche "..." avant chaque READ MORE*/
+main section article a::before{
+    content: "...";
+}
+.read{
+    color: #cedf45;
+}
+/*dimension img bodie*/
+.bodie{
+    height: 50px;
+    width: 45px;
+    padding-left: 5%;
+}
+
+/*/////////////////
+///    Sidebar   //
+/////////////////*/
+
+:root {
+    font-size: 16px;
+}
+
+.navbar.navbar::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+.navbar::-webkit-scrollbar-track {
+    background: white;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+    background: lightgray;
+    opacity: 50%;
+}
+
+.navbar {
+    position: fixed;
+    transition: 200ms ease;
+    border: 2px inset lightgray;
+    opacity: 100%;
+    background: white;
+    overflow: scroll;
+    
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    align-items: left;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img {
+    height: auto;
+    width: 4rem;
+}
+
+.nav-link img {
+    padding-left: 5px;
+    border-bottom: none;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav-link svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.navbar:hover .link-text{
+    display: block;
+}
+
+.nav-item p {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+.link-text {
+    display: flex;
+}
+
+.fa-html5 {
+    color: orange;
+}
+
+.fa-css3 {
+    color: blue;
+}
+
+.fa-js {
+    color: #f0dc4e;
+}
+
+.fa-vuejs {
+    color: gray;
+}
+
+.fa-wordpress {
+    color: darkslategray;
+}
+
+.fa-symfony {
+    color: black;
+}
+
+.fa-git {
+    color: red;
+}
+
+.fa-laravel {
+    color: orange;
+}
+
+.fa-node {
+    color: gray;
+}
+
+.fa-php {
+    color: blueviolet;
+}
+
+.fa-linux {
+    color: black;
+}
+
+/*/////////////////
+///    Sidebar   //
+/////////////////*/
+/*//////footer/////*/
+footer{
+    min-height: calc(100vh - 580px);
+    margin: 0 80px;
+    background-color: white;
+    border-top: 1px solid #123f54;
+}
+
+footer .flex{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo_footer img{
+    width: auto;
+    height: 100px;
+}
+
+.li_footer{
+    list-style-type: none;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: #123f54;
+    padding: 0.5vw;
+}
+.favicon {
+    padding-left: 5vw;
+}
+.twitter {
+    padding-right: 2vw;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.center_footer{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.git{
+    flex-grow: 2;
+}
+
+ul :nth-child(5) {
+    flex-grow: 3;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+
+    .navbar:hover {
+        width: 16rem;
+    }
+
+    .navbar:hover .link-text {
+        display: inline;
+    }
+}
+
+@media only scrren and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+    main {
+        margin: 0;
+    }
+}

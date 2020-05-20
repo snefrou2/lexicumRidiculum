@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lexicum Ridiculum</title>
     <!--lien des différentes pages css--> 
     <link rel="stylesheet" href="grafik.css">
     <link rel="stylesheet" typetext="css" href="style.css">
     <link rel="stylesheet" typetext="css" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" typetext="css" href="enTravaux.CSS">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-    </style> 
-    <title>Lexicum Ridiculum</title>
+        </style> 
+    <title>LEXICUM RIDICULUM</title>
 </head>
 <body>
-    <!--header menu-->
-    <header>
+    <header class= "casseC">
         <section>
-            <nav class="navigation">
-                <ul class="nav-header">
+            <nav>
+                <ul>
                     <li>Technologies
                         <ul class="submenu">
                             <li><a href = "enTravaux.html" target="_blank">Console</a></li>
@@ -40,9 +40,7 @@
                             <li><a href = "enTravaux.html" target="_blank">Jeux</a></li>
                         </ul>
                     </li>
-
                     <li><a href="forum.html" target="_blank">Forum</a></li>
-
                     <li>Tutos
                         <ul class="submenu">
                             <li><a href="https://doc.ubuntu-fr.org/terminal" target="_blank">Console</a></li>
@@ -63,14 +61,8 @@
             </nav>
         </section>
     </header>
-    <!--Barre de nav gauche-->
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li class="logo">
-                <a href="#" class="nav-link">
-                    <img src="assets/images/logoLexicum.jpg">
-                </a>
-            </li>
             <li class="nav-item">
                 <h1 class="link-text">FrontEnd</h1>
             </li>
@@ -148,76 +140,40 @@
             </li>
         </ul>
     </nav>
-    <main class="cote">
-    <!--Bandeau-->
+    <main class="casseC">
+      
+       <!--Bandeau-->
     <section class="bandeau">
         <ul class="tailleBandeau">
             <!--mettre une image avec le CSS -->
             <li><p class="joke">blague d'hier : T'habites où Julien ? Dans un HTLM !</p></li>
-            <li class="button"><a href="sign_in.html"><img src="assets/images/icone-connect.png" alt="logo"></a></li>
-         </ul>
+            <li><a href="sign_in.html"><button type="submit" class="buttonA"><p>Connecte-toi</p><img src= assets/images/icone-connect.png></button></a></li>
+        </ul>
     </section>
-    <section >
-        <img src = "assets/images/body.png" class="bodie">
-    </section>
-    <section class="pageAccueil">
-        <article>
-            <div class="textContainer">
-                <h2>Tuto du jour</h2> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laborum, impedit vero facilis a quidem laboriosam quos facere. Necessitatibus pariatur obcaecati sint recusandae dolorum consectetur tempora harum assumenda ratione sit commodi, maiores eaque laudantium enim distinctio repudiandae nihil architecto repellendus perspiciatis suscipit cumque nam. Incidunt nisi iusto quae numquam accusamus?</p>
-                <a href= "enTravaux.html" class="read">READ MORE</a>
-            </div>
-            <div class="picContainer">
-                <img src="assets/images/html-lernen-t.jpg">
-            </div>
-        </article>
-        <article>
-            <div class="textContainer alignement">    
-                <h2>Forum de discussion</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex rem excepturi, sequi ab iure et saepe, vero cupiditate accusantium mollitia id est, natus veritatis illo cumque quisquam vel ipsa.</p>
-                <a href= "forum.html" class="read">READ MORE</a>
-            </div>
-            <div class="picContainer">
-                <img src="assets/images/modérer-forum-1024x784.jpeg">
-            </div>
-        </article>
-        <article>
-            <div class="textContainer">
-                <h2>Techno du jour</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos officia perferendis adipisci voluptate sequi? Aliquam ex sunt suscipit autem voluptates.</p>
-                <a href= "enTravaux.html" class="read">READ MORE</a>
-            </div>
-            <div class="picContainer">
-                <img src="assets/images/icone-isometrique-technologie-informatique-salle-serveurs-ensemble-peripheriques-numeriques-element-conception-ordinateur-portable-pc_39422-1026.jpg">
-            </div>
-        </article>
-    </section>
-    <section >
-        <img src = "assets/images/body2.png" class="bodie">
-    </section>
-     <!--sidebar-->
-    </section>
-</main>
-    <!--FOOTER-->
-    <footer class = "cote">
+        <section class="imageT">
+            <article class="ghost"></article>
+            <!--<img class="picTravaux" src="https://i.imgur.com/BOOq7hk.gif">-->
+        </section>
+    </main>
+    <footer class = "cote" class="casseC">
         <section>
             <ul class="flex">         
                 <a href="https://fr-fr.facebook.com/" target="_blank" class="a_footer"><li style="font-size:24px" class="fa">&#xf230;</li></a>
                 <a href="https://twitter.com/login?lang=fr" target="_blank" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf081;</li></a> 
                 <a href="https://github.com/" target="_blank" class="a_footer"><li style="font-size:24px" class="fa li_footer">&#xf09b;</li></a>
                 <li style="font-size:24px" class="fa git a_footer">&#xf1d3;</li>  
-                <li class="logo_footer a_footer"><a href="index.html"><img src="assets/images/logoLexicum.jpg" alt="logo"></a></li>
+                <li class="logo_footer a_footer" href=""><img src="assets/images/logoLexicum.jpg" alt="logo"></li>
             </ul>
-        </section>            
-        
-        <ul class="flex center_footer">
-            <li class="li_footer"><a href="forum.html" class="a_footer">Forum</a></li>
-            <li class="li_footer"><a href="enTravaux.html" class="a_footer">Contact</a></li>
-            <li class="li_footer"><a href="enTravaux.html" class="a_footer">Mentions légales</a></li>
-            <li class="li_footer"><a href="enTravaux.html" class="a_footer">Charte</a></li>
-        </ul>
-       
+        </section>
+        <section>            
+            <ul class="flex center_footer">
+                <li class="li_footer"><a href="forum.html" class="a_footer">Forum</a></li>
+                <li class="li_footer"><a href="#Contact" class="a_footer">Contact</a></li>
+                <li class="li_footer"><a href="enTravaux.html" class="a_footer">Mentions légales</a></li>
+                <li class="li_footer"><a href="enTravaux.html" class="a_footer">Charte</a></li>
+            </ul>
+        </section>
     </footer>
-
-</body>
-</html>
+    </body>
+    </html>
+    

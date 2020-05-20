@@ -1,0 +1,56 @@
+footer{
+    min-height: calc(100vh - 580px);
+    margin: 0 80px;
+    background-color: white;
+    border-top: 1px solid #123f54;
+}
+
+footer .flex{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo_footer img{
+    width: auto;
+    height: 100px;
+}
+
+.li_footer{
+    list-style-type: none;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: #123f54;
+    padding: 0.5vw;
+}
+.favicon {
+    padding-left: 5vw;
+}
+.twitter {
+    padding-right: 2vw;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.center_footer{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.git{
+    flex-grow: 2;
+}
+
+ul :nth-child(5) {
+    flex-grow: 3;
+}
+
+
+
+
+
+
